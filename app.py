@@ -39,6 +39,7 @@ st.title("SMS Classifier")
 int_sms = st.text_area("Enter the Message")
 
 if st.button("Predict"):
+    
     # preprocess
     transformed_sms = transform_text(int_sms)
     # vectorize
@@ -46,8 +47,10 @@ if st.button("Predict"):
     # predict
     result = model.predict(vector_input)[0]
     # display
+    
     if result==1:
         st.header("It is Spam Message!")
+        
     else:
         st.header("It is Not A Spam Message!")
 
