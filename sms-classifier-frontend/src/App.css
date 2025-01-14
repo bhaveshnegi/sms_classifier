@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 20px;
+  }
+  
